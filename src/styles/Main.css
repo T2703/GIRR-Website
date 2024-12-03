@@ -1,0 +1,53 @@
+#main-container {
+  font-family: Arial, sans-serif;
+  font-size: large;
+  line-height: 1.6;
+  margin: 20px auto;
+  color: #333; 
+}
+
+/* Headings */
+#main-container h1 {
+  text-align: center;
+  color: #0056b3; 
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+#main-container p {
+  margin: 16px 0;
+  text-align: justify;
+}
+
+/* Links */
+#main-container a {
+  color: #0077c8; 
+  text-decoration: none;
+}
+
+#main-container a:hover {
+  text-decoration: underline;
+}
+
+/* Citations */
+#main-container #footnote-1,
+#main-container #footnote-2,
+#main-container #footnote-3 {
+  margin-top: 10px;
+}
+
+#main-container h1 + p {
+  margin-top: 20px;
+}
+
+/* Footer citation section */
+#main-container div:last-of-type {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #ddd;
+}
+
+/* Spacing at the bottom */
+#main-container div {
+  margin-bottom: 50px;
+}
